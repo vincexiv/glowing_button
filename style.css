@@ -1,0 +1,27 @@
+body {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    width: min(calc(100% - 2rem), 60rem);
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.15);
+    margin: auto;
+}
+
+.btn {
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 0.5em 1.2em;
+    width: 4em;
+    height: 2em;
+    background-color: transparent;
+    border: 3px solid violet;
+    border-radius: 0.2em;
+}
